@@ -1,11 +1,13 @@
-{"name": "wallapop-alerts-telegram",
-"version": "1.0.0",
-"description": "Busquedas automáticas de Seiko 5 en Wallapop",
+{
+  "name": "wallapop-seiko-monitor",
+  "version": "1.0.0",
+  "description": "Monitor de Seiko 5 en Wallapop",
   "main": "scraper.js",
   "scripts": {
     "start": "node scraper.js"
   },
   "dependencies": {
-    "axios": "^1.6.0",
-    "dotenv": "^16.3.0",
-    "node-telegram-bot-api": "^0.64.0"}}
+    "axios": "^1.7.2",
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
